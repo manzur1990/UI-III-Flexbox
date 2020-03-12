@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -21,11 +21,11 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-}
+	vertical-align: baseline; */
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, hgroup, menu, nav, section {
 	display: block;
 }
 body {
@@ -49,11 +49,13 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
+	/* border: 1px solid blue; */
 }
 
 html, body {
-    height: 100%;
+    height: auto%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -63,4 +65,145 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+
+*  {
+	box-sizing: border-box;
+	border: 1px solid red;
+}
+
+
+/* BODY */
+
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+
+/* NAV & ICON SECTION */
+ 
+.nav-container{
+	display: flex;
+	width: 80%;
+	height: 100px;
+}
+
+.nav-links {
+display: flex;
+/* flex-grow:2; */
+/* text-align: center; */
+/* height: 100px; */
+}
+
+.logo {
+display: ;	
+
+ width:30%;
+
+
+}
+.nav-links a{
+	width: 80%;
+}
+a {
+	text-align: end;
+}
+
+a:hover {
+	font-size: 29px;
+	 
+}
+
+
+
+
+.main-header {
+	
+}
+
+/* TITLE & ROUND IMAGE SECTION */
+
+.container-top{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.title{
+	
+	text-align: center;
+	font-size: 65px;
+	letter-spacing: 5px;
+}
+	
+
+
+.main-image {
+	/* height: 22rem; */
+
+	
+}
+
+.main-header div {
+	display: flex;
+	vertical-align: middle; 
+	
+}
+
+button {
+	font-size: 20px;
+	vertical-align: middle;
+	/* width: 11rem; */
+	background-color: white;
+}
+
+
+/* INFO  & LONG IMAGE SECTION*/
+
+
+.long-img {
+	vertical-align: middle;
+	width: 50rem;
+	
+	
+}
+
+.info1 div{
+	text-align: left;
+	display: inline-block;
+	width: 50rem;
+	font-size: 22px;
+	
+}
+
+.info2 div{
+	display:flex;
+	text-align: left;
+	width:31%;
+	margin: 0;
+	padding: 25px 0px 20px 0;
+	font-size: 22px;
+	
+}
+.info2 {
+	border-bottom: 1px solid black;
+}
+
+.info1 {
+	border-top:	1px solid black;
+}
+
+/* FOOTER SECTION */
+
+.contact-bottom {
+	/* border: 1px solid red; */
+	width: 22%;
+	
+}
+
+.copyright {
+	/* border: 1px solid red; */
+	text-align: center;
+	margin: 4rem;
+}
