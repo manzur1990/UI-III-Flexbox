@@ -99,42 +99,37 @@ h5 {
 
 /* NAV & ICON SECTION */
 
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  width: auto;
+}
+
+.logo {
+  height: 40px;
+  width: 190px;
+  margin-left: 2rem;
+}
+
 a {
-	height: inherit;
+  text-decoration: none;
+  color: grey;
+  font-size: 24px;
 }
-
-header{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-end;
-  height: 100px;
-}
-
-/* .nav-links{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-end;
-	position: relative;
-	margin: 0;
-} */
-
-.navigation a {
-	text-decoration: none;
-	display: block;
-	padding: 1em;
-	color: white;
-  }
-
 a:hover {
-  font-size: 29px;
-}
+  text-decoration: none;
+  color: black;
+  font-size: 34px;
 
 
 /* TITLE & ROUND IMAGE SECTION */
 
 .container-top {
   display: flex; 
-  justify-content: flex-end;
+  
   
 
 }
@@ -160,7 +155,7 @@ margin:0 auto;
 button {
   font-size: 20px;
   vertical-align: middle;
-  /* width: 11rem; */
+  width: 11rem;
   background-color: white;
 }
 
@@ -168,10 +163,8 @@ button {
 
 /* INFO  & LONG IMAGE SECTION*/
 
-.long-img {
-  vertical-align: middle;
+.long-img{
   width: 50rem;
-  margin: auto;
 }
 
 .info1{
