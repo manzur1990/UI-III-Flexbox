@@ -20,3 +20,34 @@ h5 {
   box-sizing: border-box;
   border: 1px solid red;
 }
+
+.container {
+    width: 1000px;
+    margin:0 auto;
+
+}
+
+/* NAVIGATION SECTION */
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    margin:0 auto;
+    height: 5rem;
+
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    height:60px;
+    width: auto;
+}
+
+.logo {
+    height:auto;
+}
+
+
