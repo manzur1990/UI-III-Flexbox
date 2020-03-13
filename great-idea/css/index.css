@@ -24,186 +24,188 @@ time, mark, audio, video {
 	vertical-align: baseline; */
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-	box-sizing: border-box;
-	max-width: 100%;
-	/* border: 1px solid blue; */
+  box-sizing: border-box;
+  max-width: 100%;
+  /* border: 1px solid blue; */
 }
 
-html, body {
-    height: auto%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: auto%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
 
-*  {
-	box-sizing: border-box;
-	border: 1px solid red;
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
 }
 
 
 /* BODY */
 
-
 .container {
-	width: 1000px;
-	margin: 0 auto;
-	
+  width: 1000px;
+  margin: 0 auto;
 }
 
 /* NAV & ICON SECTION */
- 
-.nav-container{
-	display: flex;
-	width: 80%;
-	height: 100px;
-}
 
-.nav-links {
-display: flex;
-/* flex-grow:2; */
-/* text-align: center; */
-/* height: 100px; */
-}
-
-.logo {
-display: ;	
-
- width:30%;
-
-
-}
-.nav-links a{
-	width: 80%;
-}
 a {
-	text-align: end;
+	height: inherit;
 }
+
+header{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+  height: 100px;
+}
+
+/* .nav-links{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	position: relative;
+	margin: 0;
+} */
+
+.navigation a {
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	color: white;
+  }
 
 a:hover {
-	font-size: 29px;
-	 
+  font-size: 29px;
 }
 
-
-
-
-.main-header {
-	
-}
 
 /* TITLE & ROUND IMAGE SECTION */
 
-.container-top{
-	display: flex;
-	justify-content: flex-end;
+.container-top {
+  display: flex; 
+  justify-content: flex-end;
+  
+
 }
 
-.title{
-	
-	text-align: center;
-	font-size: 65px;
-	letter-spacing: 5px;
-}
-	
-
-
-.main-image {
-	/* height: 22rem; */
-
-	
+.title {
+  text-align: center;
+  font-size: 65px;
+  letter-spacing: 5px;
+  /* width: 40%; */
 }
 
-.main-header div {
-	display: flex;
-	vertical-align: middle; 
-	
+.main-image {	
+	height: 19rem;
+margin:0 auto;
+}
+
+.main-header{
+  display: flex;
+  vertical-align: middle;
+  margin: auto;
 }
 
 button {
-	font-size: 20px;
-	vertical-align: middle;
-	/* width: 11rem; */
-	background-color: white;
+  font-size: 20px;
+  vertical-align: middle;
+  /* width: 11rem; */
+  background-color: white;
 }
+
 
 
 /* INFO  & LONG IMAGE SECTION*/
 
-
 .long-img {
-	vertical-align: middle;
-	width: 50rem;
-	
-	
+  vertical-align: middle;
+  width: 50rem;
+  margin: auto;
 }
 
-.info1 div{
-	text-align: left;
-	display: inline-block;
-	width: 50rem;
-	font-size: 22px;
-	
+.info1{
+	display: flex;
+  text-align: left;
+
+  width: auto;
+  font-size: 22px;
 }
 
-.info2 div{
-	display:flex;
-	text-align: left;
-	width:31%;
-	margin: 0;
-	padding: 25px 0px 20px 0;
-	font-size: 22px;
-	
+.info2  {
+  display: flex;
+  text-align: left;
+  width: auto;
+  margin:auto;
+  font-size: 22px;
 }
 .info2 {
-	border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .info1 {
-	border-top:	1px solid black;
+  border-top: 1px solid black;
 }
 
 /* FOOTER SECTION */
 
 .contact-bottom {
-	/* border: 1px solid red; */
-	width: 22%;
-	
+  /* border: 1px solid red; */
+  width: 22%;
 }
 
 .copyright {
-	/* border: 1px solid red; */
-	text-align: center;
-	margin: 4rem;
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 4rem;
 }
